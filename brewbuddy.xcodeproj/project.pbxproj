@@ -10,20 +10,20 @@
 		9F6A656E17B43BC70017776D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A656D17B43BC70017776D /* UIKit.framework */; };
 		9F6A657017B43BC70017776D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A656F17B43BC70017776D /* Foundation.framework */; };
 		9F6A657217B43BC70017776D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F6A657117B43BC70017776D /* CoreGraphics.framework */; };
-		9F6A657817B43BC70017776D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A657617B43BC70017776D /* InfoPlist.strings */; };
-		9F6A657A17B43BC70017776D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A657917B43BC70017776D /* main.m */; };
-		9F6A657E17B43BC70017776D /* BBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A657D17B43BC70017776D /* BBAppDelegate.m */; };
-		9F6A658017B43BC70017776D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A657F17B43BC70017776D /* Default.png */; };
-		9F6A658217B43BC70017776D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A658117B43BC70017776D /* Default@2x.png */; };
-		9F6A658417B43BC70017776D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A658317B43BC70017776D /* Default-568h@2x.png */; };
-		9F6A658717B43BC70017776D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A658517B43BC70017776D /* MainStoryboard_iPhone.storyboard */; };
-		9F6A658A17B43BC70017776D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A658817B43BC70017776D /* MainStoryboard_iPad.storyboard */; };
-		9F6A658D17B43BC70017776D /* BBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A658C17B43BC70017776D /* BBFirstViewController.m */; };
-		9F6A658F17B43BC70017776D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A658E17B43BC70017776D /* first.png */; };
-		9F6A659117B43BC70017776D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A659017B43BC70017776D /* first@2x.png */; };
-		9F6A659417B43BC70017776D /* BBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6A659317B43BC70017776D /* BBSecondViewController.m */; };
-		9F6A659617B43BC70017776D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A659517B43BC70017776D /* second.png */; };
-		9F6A659817B43BC70017776D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F6A659717B43BC70017776D /* second@2x.png */; };
+		9F831C5F17B44587006AC74D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5117B44587006AC74D /* Default-568h@2x.png */; };
+		9F831C6017B44587006AC74D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5217B44587006AC74D /* Default.png */; };
+		9F831C6117B44587006AC74D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5317B44587006AC74D /* Default@2x.png */; };
+		9F831C6217B44587006AC74D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5417B44587006AC74D /* InfoPlist.strings */; };
+		9F831C6317B44587006AC74D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5617B44587006AC74D /* MainStoryboard_iPad.storyboard */; };
+		9F831C6417B44587006AC74D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5817B44587006AC74D /* MainStoryboard_iPhone.storyboard */; };
+		9F831C6517B44587006AC74D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5A17B44587006AC74D /* first.png */; };
+		9F831C6617B44587006AC74D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5B17B44587006AC74D /* first@2x.png */; };
+		9F831C6717B44587006AC74D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5C17B44587006AC74D /* second.png */; };
+		9F831C6817B44587006AC74D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5D17B44587006AC74D /* second@2x.png */; };
+		9F831C6917B445FC006AC74D /* BrewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C1F17B44512006AC74D /* BrewAppDelegate.m */; };
+		9F831C6A17B445FC006AC74D /* BrewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2117B44512006AC74D /* BrewFirstViewController.m */; };
+		9F831C6B17B445FC006AC74D /* BrewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2317B44512006AC74D /* BrewSecondViewController.m */; };
+		9F831C6C17B445FC006AC74D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2617B44526006AC74D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,25 +31,25 @@
 		9F6A656D17B43BC70017776D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9F6A656F17B43BC70017776D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F6A657117B43BC70017776D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9F6A657517B43BC70017776D /* brewbuddy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "brewbuddy-Info.plist"; sourceTree = "<group>"; };
-		9F6A657717B43BC70017776D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9F6A657917B43BC70017776D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9F6A657B17B43BC70017776D /* brewbuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "brewbuddy-Prefix.pch"; sourceTree = "<group>"; };
-		9F6A657C17B43BC70017776D /* BBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAppDelegate.h; sourceTree = "<group>"; };
-		9F6A657D17B43BC70017776D /* BBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAppDelegate.m; sourceTree = "<group>"; };
-		9F6A657F17B43BC70017776D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9F6A658117B43BC70017776D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9F6A658317B43BC70017776D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9F6A658617B43BC70017776D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		9F6A658917B43BC70017776D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		9F6A658B17B43BC70017776D /* BBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBFirstViewController.h; sourceTree = "<group>"; };
-		9F6A658C17B43BC70017776D /* BBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBFirstViewController.m; sourceTree = "<group>"; };
-		9F6A658E17B43BC70017776D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		9F6A659017B43BC70017776D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		9F6A659217B43BC70017776D /* BBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBSecondViewController.h; sourceTree = "<group>"; };
-		9F6A659317B43BC70017776D /* BBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBSecondViewController.m; sourceTree = "<group>"; };
-		9F6A659517B43BC70017776D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		9F6A659717B43BC70017776D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9F831C1E17B44512006AC74D /* BrewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewAppDelegate.h; sourceTree = "<group>"; };
+		9F831C1F17B44512006AC74D /* BrewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewAppDelegate.m; sourceTree = "<group>"; };
+		9F831C2017B44512006AC74D /* BrewFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewFirstViewController.h; sourceTree = "<group>"; };
+		9F831C2117B44512006AC74D /* BrewFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewFirstViewController.m; sourceTree = "<group>"; };
+		9F831C2217B44512006AC74D /* BrewSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewSecondViewController.h; sourceTree = "<group>"; };
+		9F831C2317B44512006AC74D /* BrewSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewSecondViewController.m; sourceTree = "<group>"; };
+		9F831C2517B44526006AC74D /* brewbuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "brewbuddy-Prefix.pch"; sourceTree = "<group>"; };
+		9F831C2617B44526006AC74D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F831C5017B44587006AC74D /* brewbuddy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "brewbuddy-Info.plist"; sourceTree = "<group>"; };
+		9F831C5117B44587006AC74D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9F831C5217B44587006AC74D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		9F831C5317B44587006AC74D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9F831C5517B44587006AC74D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F831C5717B44587006AC74D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		9F831C5917B44587006AC74D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		9F831C5A17B44587006AC74D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		9F831C5B17B44587006AC74D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		9F831C5C17B44587006AC74D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		9F831C5D17B44587006AC74D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,9 @@
 		9F6A656117B43BC70017776D = {
 			isa = PBXGroup;
 			children = (
-				9F6A657317B43BC70017776D /* brewbuddy */,
+				9F831C1D17B44512006AC74D /* Classes */,
+				9F831C2417B44526006AC74D /* OtherSources */,
+				9F831C4F17B44587006AC74D /* Resources */,
 				9F6A656C17B43BC70017776D /* Frameworks */,
 				9F6A656B17B43BC70017776D /* Products */,
 			);
@@ -93,38 +95,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9F6A657317B43BC70017776D /* brewbuddy */ = {
+		9F831C1D17B44512006AC74D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9F6A657C17B43BC70017776D /* BBAppDelegate.h */,
-				9F6A657D17B43BC70017776D /* BBAppDelegate.m */,
-				9F6A658517B43BC70017776D /* MainStoryboard_iPhone.storyboard */,
-				9F6A658817B43BC70017776D /* MainStoryboard_iPad.storyboard */,
-				9F6A658B17B43BC70017776D /* BBFirstViewController.h */,
-				9F6A658C17B43BC70017776D /* BBFirstViewController.m */,
-				9F6A658E17B43BC70017776D /* first.png */,
-				9F6A659017B43BC70017776D /* first@2x.png */,
-				9F6A659217B43BC70017776D /* BBSecondViewController.h */,
-				9F6A659317B43BC70017776D /* BBSecondViewController.m */,
-				9F6A659517B43BC70017776D /* second.png */,
-				9F6A659717B43BC70017776D /* second@2x.png */,
-				9F6A657417B43BC70017776D /* Supporting Files */,
+				9F831C1E17B44512006AC74D /* BrewAppDelegate.h */,
+				9F831C1F17B44512006AC74D /* BrewAppDelegate.m */,
+				9F831C2017B44512006AC74D /* BrewFirstViewController.h */,
+				9F831C2117B44512006AC74D /* BrewFirstViewController.m */,
+				9F831C2217B44512006AC74D /* BrewSecondViewController.h */,
+				9F831C2317B44512006AC74D /* BrewSecondViewController.m */,
 			);
-			path = brewbuddy;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		9F6A657417B43BC70017776D /* Supporting Files */ = {
+		9F831C2417B44526006AC74D /* OtherSources */ = {
 			isa = PBXGroup;
 			children = (
-				9F6A657517B43BC70017776D /* brewbuddy-Info.plist */,
-				9F6A657617B43BC70017776D /* InfoPlist.strings */,
-				9F6A657917B43BC70017776D /* main.m */,
-				9F6A657B17B43BC70017776D /* brewbuddy-Prefix.pch */,
-				9F6A657F17B43BC70017776D /* Default.png */,
-				9F6A658117B43BC70017776D /* Default@2x.png */,
-				9F6A658317B43BC70017776D /* Default-568h@2x.png */,
+				9F831C2517B44526006AC74D /* brewbuddy-Prefix.pch */,
+				9F831C2617B44526006AC74D /* main.m */,
 			);
-			name = "Supporting Files";
+			path = OtherSources;
+			sourceTree = "<group>";
+		};
+		9F831C4F17B44587006AC74D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F831C5017B44587006AC74D /* brewbuddy-Info.plist */,
+				9F831C5117B44587006AC74D /* Default-568h@2x.png */,
+				9F831C5217B44587006AC74D /* Default.png */,
+				9F831C5317B44587006AC74D /* Default@2x.png */,
+				9F831C5417B44587006AC74D /* InfoPlist.strings */,
+				9F831C5617B44587006AC74D /* MainStoryboard_iPad.storyboard */,
+				9F831C5817B44587006AC74D /* MainStoryboard_iPhone.storyboard */,
+				9F831C5A17B44587006AC74D /* first.png */,
+				9F831C5B17B44587006AC74D /* first@2x.png */,
+				9F831C5C17B44587006AC74D /* second.png */,
+				9F831C5D17B44587006AC74D /* second@2x.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +161,7 @@
 		9F6A656217B43BC70017776D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = BB;
+				CLASSPREFIX = Brew;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Buddy Inc.";
 			};
@@ -179,16 +187,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6A657817B43BC70017776D /* InfoPlist.strings in Resources */,
-				9F6A658017B43BC70017776D /* Default.png in Resources */,
-				9F6A658217B43BC70017776D /* Default@2x.png in Resources */,
-				9F6A658417B43BC70017776D /* Default-568h@2x.png in Resources */,
-				9F6A658717B43BC70017776D /* MainStoryboard_iPhone.storyboard in Resources */,
-				9F6A658A17B43BC70017776D /* MainStoryboard_iPad.storyboard in Resources */,
-				9F6A658F17B43BC70017776D /* first.png in Resources */,
-				9F6A659117B43BC70017776D /* first@2x.png in Resources */,
-				9F6A659617B43BC70017776D /* second.png in Resources */,
-				9F6A659817B43BC70017776D /* second@2x.png in Resources */,
+				9F831C5F17B44587006AC74D /* Default-568h@2x.png in Resources */,
+				9F831C6017B44587006AC74D /* Default.png in Resources */,
+				9F831C6117B44587006AC74D /* Default@2x.png in Resources */,
+				9F831C6217B44587006AC74D /* InfoPlist.strings in Resources */,
+				9F831C6317B44587006AC74D /* MainStoryboard_iPad.storyboard in Resources */,
+				9F831C6417B44587006AC74D /* MainStoryboard_iPhone.storyboard in Resources */,
+				9F831C6517B44587006AC74D /* first.png in Resources */,
+				9F831C6617B44587006AC74D /* first@2x.png in Resources */,
+				9F831C6717B44587006AC74D /* second.png in Resources */,
+				9F831C6817B44587006AC74D /* second@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,38 +207,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6A657A17B43BC70017776D /* main.m in Sources */,
-				9F6A657E17B43BC70017776D /* BBAppDelegate.m in Sources */,
-				9F6A658D17B43BC70017776D /* BBFirstViewController.m in Sources */,
-				9F6A659417B43BC70017776D /* BBSecondViewController.m in Sources */,
+				9F831C6917B445FC006AC74D /* BrewAppDelegate.m in Sources */,
+				9F831C6A17B445FC006AC74D /* BrewFirstViewController.m in Sources */,
+				9F831C6B17B445FC006AC74D /* BrewSecondViewController.m in Sources */,
+				9F831C6C17B445FC006AC74D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F6A657617B43BC70017776D /* InfoPlist.strings */ = {
+		9F831C5417B44587006AC74D /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F6A657717B43BC70017776D /* en */,
+				9F831C5517B44587006AC74D /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		9F6A658517B43BC70017776D /* MainStoryboard_iPhone.storyboard */ = {
+		9F831C5617B44587006AC74D /* MainStoryboard_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9F6A658617B43BC70017776D /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9F6A658817B43BC70017776D /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6A658917B43BC70017776D /* en */,
+				9F831C5717B44587006AC74D /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9F831C5817B44587006AC74D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F831C5917B44587006AC74D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -253,6 +261,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -283,6 +292,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -298,8 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "brewbuddy/brewbuddy-Prefix.pch";
-				INFOPLIST_FILE = "brewbuddy/brewbuddy-Info.plist";
+				GCC_PREFIX_HEADER = "OtherSources/brewbuddy-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/brewbuddy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -309,8 +319,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "brewbuddy/brewbuddy-Prefix.pch";
-				INFOPLIST_FILE = "brewbuddy/brewbuddy-Info.plist";
+				GCC_PREFIX_HEADER = "OtherSources/brewbuddy-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/brewbuddy-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,6 +345,7 @@
 				9F6A659D17B43BC70017776D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

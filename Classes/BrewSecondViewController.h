@@ -1,5 +1,5 @@
 //
-//  BBAppDelegate.h
+//  BrewSecondViewController.h
 //  brewbuddy
 //
 //  Created by Jeff Bennett on 8/8/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BBAppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface BrewSecondViewController : UIViewController
 
 @end

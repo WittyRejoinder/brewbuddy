@@ -1,5 +1,5 @@
 //
-//  BBSecondViewController.h
+//  BrewFirstViewController.h
 //  brewbuddy
 //
 //  Created by Jeff Bennett on 8/8/13.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BBSecondViewController : UIViewController
+@interface BrewFirstViewController : UIViewController
 
 @end

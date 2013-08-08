@@ -1,18 +1,18 @@
 //
-//  BBFirstViewController.m
+//  BrewSecondViewController.m
 //  brewbuddy
 //
 //  Created by Jeff Bennett on 8/8/13.
 //  Copyright (c) 2013 Buddy Inc. All rights reserved.
 //
 
-#import "BBFirstViewController.h"
+#import "BrewSecondViewController.h"
 
-@interface BBFirstViewController ()
+@interface BrewSecondViewController ()
 
 @end
 
-@implementation BBFirstViewController
+@implementation BrewSecondViewController
 
 - (void)viewDidLoad
 {
