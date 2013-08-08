@@ -24,6 +24,7 @@
 		9F831C6A17B445FC006AC74D /* BrewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2117B44512006AC74D /* BrewFirstViewController.m */; };
 		9F831C6B17B445FC006AC74D /* BrewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2317B44512006AC74D /* BrewSecondViewController.m */; };
 		9F831C6C17B445FC006AC74D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2617B44526006AC74D /* main.m */; };
+		9F831C6F17B44CDB006AC74D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F831C6E17B44CDA006AC74D /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		9F831C5B17B44587006AC74D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
 		9F831C5C17B44587006AC74D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9F831C5D17B44587006AC74D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		9F831C6E17B44CDA006AC74D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F831C6F17B44CDB006AC74D /* CoreData.framework in Frameworks */,
 				9F6A656E17B43BC70017776D /* UIKit.framework in Frameworks */,
 				9F6A657017B43BC70017776D /* Foundation.framework in Frameworks */,
 				9F6A657217B43BC70017776D /* CoreGraphics.framework in Frameworks */,
@@ -88,6 +91,7 @@
 		9F6A656C17B43BC70017776D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9F831C6E17B44CDA006AC74D /* CoreData.framework */,
 				9F6A656D17B43BC70017776D /* UIKit.framework */,
 				9F6A656F17B43BC70017776D /* Foundation.framework */,
 				9F6A657117B43BC70017776D /* CoreGraphics.framework */,
@@ -98,12 +102,12 @@
 		9F831C1D17B44512006AC74D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F831C7317B44D3D006AC74D /* Service */,
+				9F831C7217B44D2A006AC74D /* View */,
+				9F831C7117B44D24006AC74D /* Model */,
+				9F831C7017B44D1A006AC74D /* Controller */,
 				9F831C1E17B44512006AC74D /* BrewAppDelegate.h */,
 				9F831C1F17B44512006AC74D /* BrewAppDelegate.m */,
-				9F831C2017B44512006AC74D /* BrewFirstViewController.h */,
-				9F831C2117B44512006AC74D /* BrewFirstViewController.m */,
-				9F831C2217B44512006AC74D /* BrewSecondViewController.h */,
-				9F831C2317B44512006AC74D /* BrewSecondViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -133,6 +137,38 @@
 				9F831C5D17B44587006AC74D /* second@2x.png */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F831C7017B44D1A006AC74D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F831C2017B44512006AC74D /* BrewFirstViewController.h */,
+				9F831C2117B44512006AC74D /* BrewFirstViewController.m */,
+				9F831C2217B44512006AC74D /* BrewSecondViewController.h */,
+				9F831C2317B44512006AC74D /* BrewSecondViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F831C7117B44D24006AC74D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9F831C7217B44D2A006AC74D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F831C7317B44D3D006AC74D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
