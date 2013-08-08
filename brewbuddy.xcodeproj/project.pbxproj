@@ -25,6 +25,7 @@
 		9F831C6F17B44CDB006AC74D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F831C6E17B44CDA006AC74D /* CoreData.framework */; };
 		9F831C7C17B4501A006AC74D /* BrewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C7617B45019006AC74D /* BrewFirstViewController.m */; };
 		9F831C7D17B4501A006AC74D /* BrewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C7817B45019006AC74D /* BrewSecondViewController.m */; };
+		9F831C8017B4553E006AC74D /* BrewBuddy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C7E17B4553E006AC74D /* BrewBuddy.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		9F831C7617B45019006AC74D /* BrewFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrewFirstViewController.m; sourceTree = "<group>"; };
 		9F831C7717B45019006AC74D /* BrewSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrewSecondViewController.h; sourceTree = "<group>"; };
 		9F831C7817B45019006AC74D /* BrewSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrewSecondViewController.m; sourceTree = "<group>"; };
+		9F831C7F17B4553E006AC74D /* BrewBuddy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrewBuddy.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				9F831C5B17B44587006AC74D /* first@2x.png */,
 				9F831C5C17B44587006AC74D /* second.png */,
 				9F831C5D17B44587006AC74D /* second@2x.png */,
+				9F831C7E17B4553E006AC74D /* BrewBuddy.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				9F831C6C17B445FC006AC74D /* main.m in Sources */,
 				9F831C7C17B4501A006AC74D /* BrewFirstViewController.m in Sources */,
 				9F831C7D17B4501A006AC74D /* BrewSecondViewController.m in Sources */,
+				9F831C8017B4553E006AC74D /* BrewBuddy.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +388,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F831C7E17B4553E006AC74D /* BrewBuddy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F831C7F17B4553E006AC74D /* BrewBuddy.xcdatamodel */,
+			);
+			currentVersion = 9F831C7F17B4553E006AC74D /* BrewBuddy.xcdatamodel */;
+			path = BrewBuddy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9F6A656217B43BC70017776D /* Project object */;
 }
