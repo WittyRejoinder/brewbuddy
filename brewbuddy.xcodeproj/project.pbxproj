@@ -21,10 +21,10 @@
 		9F831C6717B44587006AC74D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5C17B44587006AC74D /* second.png */; };
 		9F831C6817B44587006AC74D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F831C5D17B44587006AC74D /* second@2x.png */; };
 		9F831C6917B445FC006AC74D /* BrewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C1F17B44512006AC74D /* BrewAppDelegate.m */; };
-		9F831C6A17B445FC006AC74D /* BrewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2117B44512006AC74D /* BrewFirstViewController.m */; };
-		9F831C6B17B445FC006AC74D /* BrewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2317B44512006AC74D /* BrewSecondViewController.m */; };
 		9F831C6C17B445FC006AC74D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C2617B44526006AC74D /* main.m */; };
 		9F831C6F17B44CDB006AC74D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F831C6E17B44CDA006AC74D /* CoreData.framework */; };
+		9F831C7C17B4501A006AC74D /* BrewFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C7617B45019006AC74D /* BrewFirstViewController.m */; };
+		9F831C7D17B4501A006AC74D /* BrewSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F831C7817B45019006AC74D /* BrewSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,10 +34,6 @@
 		9F6A657117B43BC70017776D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9F831C1E17B44512006AC74D /* BrewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewAppDelegate.h; sourceTree = "<group>"; };
 		9F831C1F17B44512006AC74D /* BrewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewAppDelegate.m; sourceTree = "<group>"; };
-		9F831C2017B44512006AC74D /* BrewFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewFirstViewController.h; sourceTree = "<group>"; };
-		9F831C2117B44512006AC74D /* BrewFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewFirstViewController.m; sourceTree = "<group>"; };
-		9F831C2217B44512006AC74D /* BrewSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrewSecondViewController.h; sourceTree = "<group>"; };
-		9F831C2317B44512006AC74D /* BrewSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrewSecondViewController.m; sourceTree = "<group>"; };
 		9F831C2517B44526006AC74D /* brewbuddy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "brewbuddy-Prefix.pch"; sourceTree = "<group>"; };
 		9F831C2617B44526006AC74D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F831C5017B44587006AC74D /* brewbuddy-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "brewbuddy-Info.plist"; sourceTree = "<group>"; };
@@ -52,6 +48,10 @@
 		9F831C5C17B44587006AC74D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		9F831C5D17B44587006AC74D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		9F831C6E17B44CDA006AC74D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9F831C7517B45019006AC74D /* BrewFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrewFirstViewController.h; sourceTree = "<group>"; };
+		9F831C7617B45019006AC74D /* BrewFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrewFirstViewController.m; sourceTree = "<group>"; };
+		9F831C7717B45019006AC74D /* BrewSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrewSecondViewController.h; sourceTree = "<group>"; };
+		9F831C7817B45019006AC74D /* BrewSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrewSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 		9F831C1D17B44512006AC74D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9F831C7317B44D3D006AC74D /* Service */,
-				9F831C7217B44D2A006AC74D /* View */,
-				9F831C7117B44D24006AC74D /* Model */,
-				9F831C7017B44D1A006AC74D /* Controller */,
+				9F831C7417B45019006AC74D /* Controller */,
+				9F831C7917B45019006AC74D /* Model */,
+				9F831C7A17B45019006AC74D /* Service */,
+				9F831C7B17B45019006AC74D /* View */,
 				9F831C1E17B44512006AC74D /* BrewAppDelegate.h */,
 				9F831C1F17B44512006AC74D /* BrewAppDelegate.m */,
 			);
@@ -139,36 +139,36 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		9F831C7017B44D1A006AC74D /* Controller */ = {
+		9F831C7417B45019006AC74D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9F831C2017B44512006AC74D /* BrewFirstViewController.h */,
-				9F831C2117B44512006AC74D /* BrewFirstViewController.m */,
-				9F831C2217B44512006AC74D /* BrewSecondViewController.h */,
-				9F831C2317B44512006AC74D /* BrewSecondViewController.m */,
+				9F831C7517B45019006AC74D /* BrewFirstViewController.h */,
+				9F831C7617B45019006AC74D /* BrewFirstViewController.m */,
+				9F831C7717B45019006AC74D /* BrewSecondViewController.h */,
+				9F831C7817B45019006AC74D /* BrewSecondViewController.m */,
 			);
-			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		9F831C7117B44D24006AC74D /* Model */ = {
+		9F831C7917B45019006AC74D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		9F831C7217B44D2A006AC74D /* View */ = {
+		9F831C7A17B45019006AC74D /* Service */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
+			path = Service;
 			sourceTree = "<group>";
 		};
-		9F831C7317B44D3D006AC74D /* Service */ = {
+		9F831C7B17B45019006AC74D /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Service;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,9 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F831C6917B445FC006AC74D /* BrewAppDelegate.m in Sources */,
-				9F831C6A17B445FC006AC74D /* BrewFirstViewController.m in Sources */,
-				9F831C6B17B445FC006AC74D /* BrewSecondViewController.m in Sources */,
 				9F831C6C17B445FC006AC74D /* main.m in Sources */,
+				9F831C7C17B4501A006AC74D /* BrewFirstViewController.m in Sources */,
+				9F831C7D17B4501A006AC74D /* BrewSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
