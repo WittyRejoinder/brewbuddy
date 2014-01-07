@@ -43,7 +43,12 @@ Manage Ingredient Measurements
 
 Manage Tags:
 - Tag (String, could be anything from "Lager" to "Spicy" to "Halloween" etc)
+- Tag Parents (Array, organized such as "Seasonal, style, flavors, grain, malt, hop")
 - Add to Recipe ( pull up a list of existing recipes and select/deselect to create link)
+
+What we need to capture here is that users will likely be managing and searching for many kinds of tags, 
+such as beer styly, or recipes that use specific ingredients, or information on specific ingredients 
+for how they will affect the recipe.
 
 Brew Log
 - date? 
